@@ -1,0 +1,8 @@
+fetch("/users/addUser", {method: "POST", headers: {
+"Content-Type": "application/json"}, body: JSON.stringify({name: "nomangul0000000"})})
+
+fetch("/users/updateName", {method: "PUT", headers: {
+"Content-Type": "application/json"}, body: JSON.stringify({name: "tom",email:"xicor_tom@outlook.com"})})
+
+fetch("/users/addUser", {method: "POST", headers: {
+"Content-Type": "application/json"}, body: JSON.stringify({name: "xicor",email:"xicor_tom@outlook.com",age : 22})})
